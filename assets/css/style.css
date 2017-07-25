@@ -1,6 +1,6 @@
 body {
 	background-image: url(../images/cork-wallet.png);
-	margin: 0;
+	margin: 0px;
 }
 
 h1, h2 {
@@ -38,33 +38,36 @@ h2{
 }
 
 #full {
-	width: 90%;
+	margin: auto;
 	padding: 20px;
 	clear: both;
 	overflow: auto;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-}
+
+	}
 
 aside{
 	padding: 20px;
 	background: white;
 	float: left;
 	width: 650px;
-	height: 425px;
-	margin-left: 65px;
+	height: auto;
+	margin: auto;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	margin-left: 60px;
 }
 
 #division {
 	background: white;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-	float: right;
+	float: left;
 	padding: 20px;
 	align-content: right;
 	width: 270px;
+	margin-left: 50px;
 	}
 
 input[type=text] {
@@ -181,4 +184,64 @@ img.top {
 
 .largertext{
 	font-size: 25px;
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    width: 100%;
+  }
+
+  #full {
+    width: 100%;
+    padding: 20px;
+  }
+
+  aside,
+  #division {
+    width: 100%;
+  }
+
+  #division {
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  #full {
+    width: 100%;
+    padding: 20px;
+  }
+  aside,
+  #division {
+    width: 100%;
+  }
+
+  #division {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+   width: 100%;
+  }
+
+  #full {
+    width: 100%;
+    padding: 20px;
+  }
+
+  aside,
+  #division {
+    width: 100%;
+  }
+
+  #division {
+    margin-top: 40px;
+  }
 }
